@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">[Your Name]</h1>
+            <nav>
+                <a href="index.html" class="px-4 hover:underline">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content with Sidebar Layout -->
+    <div class="container mx-auto my-8 px-4 flex">
+        <!-- Sidebar -->
+        <aside class="w-1/4 bg-white rounded-lg shadow p-4 mr-4">
+            <h2 class="text-xl font-bold mb-4">Navigation</h2>
+            <ul class="list-disc list-inside">
+                <li><a href="tech_blog.html" class="text-blue-600 hover:underline">Tech Blog</a></li>
+                <li><a href="projects.html" class="text-blue-600 hover:underline">Projects</a></li>
+                <li><a href="contact.html" class="text-blue-600 hover:underline">Contact</a></li>
+            </ul>
+        </aside>
+
+        <!-- Content Section -->
+        <main class="w-3/4 bg-white rounded-lg shadow p-4">
+            <h2 class="text-3xl font-bold mb-4">Welcome</h2>
+            <p class="text-lg">Select a section from the navigation to explore more content.</p>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; [Your Name] 2025. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
